@@ -19,7 +19,186 @@
         "https://images.unsplash.com/photo-1447078806655-40579c2520d6?w=400",
         "https://images.unsplash.com/photo-1508766206392-8bd5cf550d1d?w=400"
       ]
+    },
+    {
+      "nombre": "Ferretería El Faro",
+      "categoria": "Ferreterías",
+      "descripcion": "Todo en herramientas y materiales de construcción.",
+      "telefono": "4792223344",
+      "whatsapp": "4792223344",
+      "maps": "https://goo.gl/maps/ejemplo2",
+      "redes": {
+        "facebook": "https://facebook.com/ferreterielfaro",
+        "instagram": ""
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1581091012184-59c682e7881c?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1581091012184-59c682e7881c?w=400",
+        "https://images.unsplash.com/photo-1590080877777-2c6e1d5aa697?w=400",
+        "https://images.unsplash.com/photo-1573542986279-3e46cdc331e9?w=400",
+        "https://images.unsplash.com/photo-1494526585095-c41746248156?w=400",
+        "https://images.unsplash.com/photo-1509027579827-7a3dc9bd7303?w=400"
+      ]
+    },
+    {
+      "nombre": "Farmacia Salud Plus",
+      "categoria": "Farmacias",
+      "descripcion": "Medicamentos y productos de salud con atención personalizada.",
+      "telefono": "4793334455",
+      "whatsapp": "4793334455",
+      "maps": "https://goo.gl/maps/ejemplo3",
+      "redes": {
+        "facebook": "",
+        "instagram": "https://instagram.com/farmaciasauldplus"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+        "https://images.unsplash.com/photo-1580281657525-1217670daa52?w=400",
+        "https://images.unsplash.com/photo-1532634726-8b6e3eaa4869?w=400",
+        "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400",
+        "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400"
+      ]
+    },
+    {
+      "nombre": "Tienda Abarrotes La Esquina",
+      "categoria": "Tiendas de Abarrotes",
+      "descripcion": "Productos frescos y variedad en abarrotes.",
+      "telefono": "4794445566",
+      "whatsapp": "4794445566",
+      "maps": "https://goo.gl/maps/ejemplo4",
+      "redes": {
+        "facebook": "https://facebook.com/abarroteslaesquina",
+        "instagram": "https://instagram.com/abarroteslaesquina"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400",
+        "https://images.unsplash.com/photo-1516997126578-59786bca7777?w=400",
+        "https://images.unsplash.com/photo-1590080876591-9a8d8bc4427b?w=400",
+        "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400",
+        "https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=400"
+      ]
+    },
+    {
+      "nombre": "Restaurante El Buen Sabor",
+      "categoria": "Restaurantes",
+      "descripcion": "Platillos típicos con ingredientes frescos y locales.",
+      "telefono": "4795556677",
+      "whatsapp": "4795556677",
+      "maps": "https://goo.gl/maps/ejemplo5",
+      "redes": {
+        "facebook": "https://facebook.com/restauranteelbuen",
+        "instagram": "https://instagram.com/restauranteelbuen"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+        "https://images.unsplash.com/photo-1543352634-fb06e2af7010?w=400",
+        "https://images.unsplash.com/photo-1543352634-29e4a27b9c09?w=400",
+        "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400",
+        "https://images.unsplash.com/photo-1398904932499-152890a91894?w=400"
+      ]
+    },
+    {
+      "nombre": "Salón de Belleza Luz y Estilo",
+      "categoria": "Belleza",
+      "descripcion": "Cortes, tintes y tratamientos profesionales en un ambiente amigable.",
+      "telefono": "4796667788",
+      "whatsapp": "4796667788",
+      "maps": "https://goo.gl/maps/ejemplo6",
+      "redes": {
+        "facebook": "https://facebook.com/lucestylo",
+        "instagram": "https://instagram.com/lucestylo"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400",
+        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400",
+        "https://images.unsplash.com/photo-1531386451212-cb92e6b4e9a7?w=400",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400",
+        "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400"
+      ]
+    },
+    {
+      "nombre": "Tienda Orgánica Verde Vida",
+      "categoria": "Tiendas de Abarrotes",
+      "descripcion": "Productos orgánicos y naturales para una vida saludable.",
+      "telefono": "4797778899",
+      "whatsapp": "4797778899",
+      "maps": "https://goo.gl/maps/ejemplo7",
+      "redes": {
+        "facebook": "https://facebook.com/verdevida",
+        "instagram": "https://instagram.com/verdevida"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400",
+        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400",
+        "https://images.unsplash.com/photo-1531386451212-cb92e6b4e9a7?w=400",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400",
+        "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400"
+      ]
+    },
+    {
+      "nombre": "Comida Rápida El Sazón",
+      "categoria": "Comida",
+      "descripcion": "Tacos, hamburguesas y más, con ingredientes frescos y recetas tradicionales.",
+      "telefono": "4798889900",
+      "whatsapp": "4798889900",
+      "maps": "https://goo.gl/maps/ejemplo8",
+      "redes": {
+        "facebook": "",
+        "instagram": ""
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400",
+        "https://images.unsplash.com/photo-1590080877777-2c6e1d5aa697?w=400",
+        "https://images.unsplash.com/photo-1573542986279-3e46cdc331e9?w=400",
+        "https://images.unsplash.com/photo-1494526585095-c41746248156?w=400",
+        "https://images.unsplash.com/photo-1509027579827-7a3dc9bd7303?w=400"
+      ]
+    },
+    {
+      "nombre": "Farmacia Nueva Vida",
+      "categoria": "Farmacias",
+      "descripcion": "Atención especializada y productos de alta calidad.",
+      "telefono": "4799990011",
+      "whatsapp": "4799990011",
+      "maps": "https://goo.gl/maps/ejemplo9",
+      "redes": {
+        "facebook": "https://facebook.com/farmacianuevavida",
+        "instagram": ""
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400",
+        "https://images.unsplash.com/photo-1580281657525-1217670daa52?w=400",
+        "https://images.unsplash.com/photo-1532634726-8b6e3eaa4869?w=400",
+        "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400",
+        "https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=400"
+      ]
+    },
+    {
+      "nombre": "Belleza y Spa Estrella",
+      "categoria": "Belleza",
+      "descripcion": "Tratamientos faciales y corporales con productos naturales.",
+      "telefono": "4791011121",
+      "whatsapp": "4791011121",
+      "maps": "https://goo.gl/maps/ejemplo10",
+      "redes": {
+        "facebook": "https://facebook.com/bellezayspaestrella",
+        "instagram": "https://instagram.com/bellezayspaestrella"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400",
+        "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400",
+        "https://images.unsplash.com/photo-1531386451212-cb92e6b4e9a7?w=400",
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400",
+        "https://images.unsplash.com/photo-1526045612212-70caf35c14df?w=400"
+      ]
     }
-    /* Repite otros 9 negocios con datos y galerías ficticias similares */
   ]
 }
