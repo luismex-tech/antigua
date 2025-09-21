@@ -1,0 +1,25 @@
+{
+  "negocios": [
+    {
+      "nombre": "Café Valle Azul",
+      "categoria": "Restaurantes",
+      "descripcion": "Cafetería artesanal con repostería gourmet.",
+      "telefono": "4791112233",
+      "whatsapp": "4791112233",
+      "maps": "https://goo.gl/maps/ejemplo1",
+      "redes": {
+        "facebook": "https://facebook.com/cafevalleazul",
+        "instagram": "https://instagram.com/cafevalleazul"
+      },
+      "imagen_principal": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+      "galeria": [
+        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400",
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+        "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?w=400",
+        "https://images.unsplash.com/photo-1447078806655-40579c2520d6?w=400",
+        "https://images.unsplash.com/photo-1508766206392-8bd5cf550d1d?w=400"
+      ]
+    }
+    /* Repite otros 9 negocios con datos y galerías ficticias similares */
+  ]
+}
