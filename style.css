@@ -1,0 +1,144 @@
+body {
+  font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+  background: #f3f8fb;
+  color: #232a34;
+  margin: 0;
+}
+.menu {
+  display: flex; justify-content: center; align-items: center;
+  background: linear-gradient(90deg, #4BBECF 50%, #7CDEB5 100%);
+  position: sticky; top: 0; z-index: 1000;
+  box-shadow: 0 2px 8px rgba(60,120,120,.15);
+  padding: 1rem 2vw;
+}
+.logo {
+  font-size: 1.4rem; font-weight: bold; color: #fff;
+}
+.menu-links { display: flex; gap: 2vw; list-style: none; }
+.menu-links li a { color: #fff; font-weight: 600; text-decoration: none; }
+.hamburger { display: none; font-size: 2rem; color: #fff; cursor: pointer; }
+.busqueda-filtrado {
+  background: #fffbea;
+  padding: .8rem 2vw;
+  padding-bottom: 1.1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#buscador { max-width: 370px; padding: .6em; border-radius: 20px; border: 1px solid #cbe6d6;}
+#categorias { display: flex; gap: .8em; }
+.categoria-chip {
+  background: #4BBECF;
+  border-radius: 15px;
+  padding: .3em .9em;
+  color: #fff;
+  font-weight: 500;
+  font-size: .95em;
+  margin-right: 0.3em;
+  display: inline-block;
+}
+.grid-negocios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 2vw;
+}
+.negocio-card {
+  background: #fff;
+  border-radius: 1.1em;
+  box-shadow: 0 4px 24px #bae6ef44;
+  overflow: hidden;
+  transition: transform .18s;
+  padding-bottom: 1.5em;
+  position: relative;
+}
+.negocio-card:hover {
+  transform: translateY(-7px) scale(1.03);
+  box-shadow: 0 12px 36px #90ffe474;
+}
+.cover-img {
+  width: 100%; height: 190px; object-fit: cover; border-radius: 1.1em 1.1em 0 0;
+}
+.negocio-card h3 { margin: 1em 0 .4em 1em; font-size: 1.2em; color: #19A68C;}
+.negocio-card .categoria-chip { margin-left: 1em; }
+.negocio-card .descripcion { margin: .8em 1em 0 1em; font-size: .95em; }
+.negocio-card .datos {
+  margin: .8em 1em 0 1em;
+  color: #556; font-size: .93em;
+}
+.negocio-card .redes { display: flex; gap: .7em; margin: .3em 1em; }
+.negocio-card .redes a { width: 26px; height: 26px; display: inline-block;}
+.negocio-card .galeria-mini { display: flex; gap:.5em; margin: .7em 1em;}
+.negocio-card .galeria-mini img { width: 42px; height: 42px; border-radius: 7px; cursor: pointer; object-fit: cover; }
+.ver-mas,
+.boton-wsp,
+.boton-maps {
+  background: #19A68C;
+  color: #fff;
+  border: none;
+  border-radius: 17px;
+  padding: .5em 1.3em;
+  font-size: .98em;
+  cursor: pointer;
+  margin: .7em 1em .3em 0;
+  transition: background .17s;
+}
+.ver-mas:hover,
+.boton-wsp:hover,
+.boton-maps:hover { background: #27c9a5; }
+footer {
+  background: #232a34;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0 .7em 0;
+  font-size: 1.02em;
+  position: sticky;
+  bottom: 0;
+}
+.modal {
+  position: fixed; top: 0; left: 0; width:100vw; height:100vh;
+  background: #132f34ea;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oculto { display: none; }
+.modal-contenido {
+  background: #fff;
+  border-radius: 1.1em;
+  box-shadow: 0 6px 36px #9efefe99;
+  padding: 2em;
+  position: relative;
+  max-width: 470px;
+  min-width: 310px;
+}
+.modal-cerrar {
+  position: absolute; top: 1em; right: 1em;
+  font-size: 1.7em; color:#19A68C; background:none; border:none; cursor:pointer;
+}
+.modal-galeria {
+  display: flex; gap: .8em; flex-wrap: wrap; margin-top: .8em;
+}
+.modal-galeria img {
+  width: 62px; height: 62px; object-fit: cover;
+  border-radius: 10px; cursor: pointer;
+  border: 2px solid #d7e9f6;
+}
+.lightbox {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: #131e29de;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 99999;
+}
+.lightbox img { max-width: 90vw; max-height: 75vh; border-radius: 13px; box-shadow: 0 8px 32px #baa2cf88;}
+.lightbox-close {
+  position: absolute; top: 8vh; right: 9vw;
+  font-size:2.6em; color: #fff; background: none; border:none; cursor: pointer; z-index: 30;
+}
+@media (max-width: 700px) {
+  .grid-negocios { grid-template-columns: 1fr;}
+  .modal-contenido {max-width: 99vw;}
+  .cover-img {height: 140px;}
+}
