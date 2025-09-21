@@ -1,39 +1,175 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tu Negocio en Línea</title>
-  <link rel="stylesheet" href="style.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@400;600&display=swap"
-    rel="stylesheet"
-  />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigua Negocios - Modern 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="menu">
-      <div class="logo">Tu Negocio en Línea</div>
-      <ul class="menu-links">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Categorías</a></li>
-        <li><a href="#" id="anunciateBtn">Anúnciate aquí</a></li>
-      </ul>
-      <div class="hamburger">&#9776;</div>
-    </nav>
-    <div class="busqueda-filtrado">
-      <input type="text" placeholder="Buscar negocios..." id="buscador" />
-      <div id="categorias"></div>
-    </div>
-  </header>
-  <main>
-    <section id="business-list" class="grid-negocios"></section>
-  </main>
-  <footer>© 2025 Luis Rodríguez. Todos los derechos reservados.</footer>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">Antigua<span>Tech</span></h1>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#hero">Inicio</a></li>
+                    <li><a href="#businesses">Negocios</a></li>
+                    <li><a href="#about">Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <div id="modalNegocio" class="modal oculto"></div>
-  <div id="lightbox" class="lightbox oculto">
-    <span class="lightbox-close">&times;</span>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Descubre los Mejores Negocios de Antigua</h2>
+                    <p>Conecta con la vibrante comunidad local. Encuentra servicios, productos y experiencias únicas.</p>
+                    <a href="#businesses" class="btn btn-primary">Explorar Negocios</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x400/FFDDC1/808080?text=Antigua+Modern" alt="Vista panorámica de Antigua Guatemala con toques modernos">
+                </div>
+            </div>
+        </section>
+
+        <section id="businesses" class="businesses-section">
+            <div class="container">
+                <h3>Nuestros Negocios Destacados</h3>
+                <div class="card-grid">
+                    <div class="business-card">
+                        <div class="card-image-wrapper">
+                            <img src="https://via.placeholder.com/400x250/AEC6CF/FFFFFF?text=Cafe+Central" alt="Interior de una cafetería moderna">
+                        </div>
+                        <div class="card-content">
+                            <h4>Cafetería El Grano</h4>
+                            <p class="category">Comida y Bebida</p>
+                            <p>Un espacio acogedor para disfrutar del mejor café de origen y repostería artesanal.</p>
+                            <div class="card-socials">
+                                <a href="https://facebook.com/cafeteriaelgrano" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/cafeteriaelgrano" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="mailto:info@elgrano.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-secondary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="business-card">
+                        <div class="card-image-wrapper">
+                            <img src="https://via.placeholder.com/400x250/C8A2C8/FFFFFF?text=Boutique+Antigua" alt="Fachada de una boutique de moda">
+                        </div>
+                        <div class="card-content">
+                            <h4>Boutique Tejidos</h4>
+                            <p class="category">Moda y Artesanía</p>
+                            <p>Descubre prendas únicas y accesorios hechos a mano con diseños inspirados en la tradición.</p>
+                            <div class="card-socials">
+                                <a href="https://facebook.com/boutiquetejidos" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/boutiquetejidos" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="tel:+50212345678" aria-label="Teléfono"><i class="fas fa-phone"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-secondary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="business-card">
+                        <div class="card-image-wrapper">
+                            <img src="https://via.placeholder.com/400x250/B5EAD7/FFFFFF?text=Hotel+Boutique" alt="Recepción de un hotel boutique moderno">
+                        </div>
+                        <div class="card-content">
+                            <h4>Hotel La Estancia</h4>
+                            <p class="category">Alojamiento</p>
+                            <p>Disfruta de una estadía memorable en un entorno histórico con todas las comodidades modernas.</p>
+                            <div class="card-socials">
+                                <a href="https://facebook.com/hotellaestancia" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/hotellaestancia" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://hotellaestancia.com" target="_blank" aria-label="Sitio Web"><i class="fas fa-globe"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-secondary">Ver Detalles</a>
+                        </div>
+                    </div>
+
+                    <div class="business-card">
+                        <div class="card-image-wrapper">
+                            <img src="https://via.placeholder.com/400x250/FFDDC1/808080?text=Restaurante+Fusion" alt="Plato gourmet en un restaurante">
+                        </div>
+                        <div class="card-content">
+                            <h4>Restaurante Fusión </h4>
+                            <p class="category">Comida y Bebida</p>
+                            <p>Una experiencia culinaria que mezcla sabores locales e internacionales con un toque innovador.</p>
+                            <div class="card-socials">
+                                <a href="https://facebook.com/restaurantefusion" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://instagram.com/restaurantefusion" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://restaurantefusion.com" target="_blank" aria-label="Sitio Web"><i class="fas fa-globe"></i></a>
+                            </div>
+                            <a href="#" class="btn btn-secondary">Ver Detalles</a>
+                        </div>
+                    </div>
+                    
+                    </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3>Sobre Nosotros</h3>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>AntiguaTech es una iniciativa dedicada a impulsar y visibilizar los negocios locales en Antigua Guatemala. Creemos en el poder de la comunidad y la importancia de apoyar a nuestros emprendedores.</p>
+                        <p>Nuestro objetivo es ser la plataforma de referencia para que tanto residentes como visitantes descubran la riqueza y diversidad de la oferta comercial de la ciudad.</p>
+                        <a href="#contact" class="btn btn-primary">Contáctanos</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/500x350/F0F0F0/333333?text=Comunidad+Antigua" alt="Vista de la comunidad de Antigua Guatemala">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-info">
+                    <h4>Antigua<span>Tech</span></h4>
+                    <p>Conectando negocios, fortaleciendo la comunidad.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#hero">Inicio</a></li>
+                        <li><a href="#businesses">Negocios</a></li>
+                        <li><a href="#about">Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-info" id="contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Antigua Guatemala</p>
+                    <p><i class="fas fa-envelope"></i> info@antiguatech.com</p>
+                    <p><i class="fas fa-phone"></i> +502 1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AntiguaTech. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
     <img id="lightbox-img" src="" />
   </div>
 
