@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tu Negocio en Línea</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <div class="logo">Tu Negocio en Línea</div>
+      <ul class="menu-links">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Categorías</a></li>
+        <li><a href="#" id="anunciateBtn">Anúnciate aquí</a></li>
+      </ul>
+      <div class="hamburger">&#9776;</div>
+    </nav>
+    <div class="busqueda-filtrado">
+      <input type="text" placeholder="Buscar negocios..." id="buscador" />
+      <div id="categorias"></div>
+    </div>
+  </header>
+  <main>
+    <section id="business-list" class="grid-negocios"></section>
+  </main>
+  <footer>© 2025 Luis Rodríguez. Todos los derechos reservados.</footer>
+
+  <div id="modalNegocio" class="modal oculto"></div>
+  <div id="lightbox" class="lightbox oculto">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightbox-img" src="" />
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
