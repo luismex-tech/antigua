@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Local - Directorio de Valle Antigua y El Faro</title>
+    <meta name="description" content="Descubre los mejores negocios, restaurantes y servicios en las colonias Valle Antigua y El Faro.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Conecta<strong>Local</strong></a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Quiénes Somos</a></li>
+                    <li><a href="#" class="cta-button">Anúnciate Aquí</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Descubre lo mejor de <strong>Valle Antigua</strong> y <strong>El Faro</strong>.</h1>
+                <p>Encuentra restaurantes, tiendas y servicios cerca de ti.</p>
+                <div class="search-container">
+                    <input type="search" id="search-box" placeholder="Busca por nombre, categoría o producto...">
+                </div>
+            </div>
+        </section>
+
+        <section class="directory-section">
+            <div class="container">
+                <div id="filters-container" class="filters-container">
+                    </div>
+                <div id="directory-grid" class="directory-grid">
+                    </div>
+                 <p id="no-results" class="no-results hidden">No se encontraron resultados para tu búsqueda.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">Conecta<strong>Local</strong></a>
+                <nav class="footer-nav">
+                    <ul>
+                         <li><a href="#">Quiénes Somos</a></li>
+                         <li><a href="#">Anúnciate Aquí</a></li>
+                         <li><a href="#">Términos y Condiciones</a></li>
+                         <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <p class="copyright">Derechos Reservados. Creado por: <strong>LUISTek 2025</strong></p>
+        </div>
+    </footer>
+
+    <div id="modal-container" class="modal-container hidden">
+        <div class="modal-content">
+            <button id="modal-close" class="modal-close" title="Cerrar">&times;</button>
+            <div id="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <div id="lightbox-container" class="lightbox-container hidden">
+        <button id="lightbox-close" class="lightbox-close" title="Cerrar">&times;</button>
+        <img src="" alt="Vista ampliada de la imagen" id="lightbox-image">
+    </div>
+
+</body>
+</html>

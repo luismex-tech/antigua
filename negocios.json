@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "nombre": "Café Aroma del Valle",
+    "categoria": "Restaurante",
+    "colonia": "Valle Antigua",
+    "telefono": "4771234567",
+    "imagen_url": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+      "https://images.unsplash.com/photo-1511920183353-3c2c5d7a5d9b?q=80&w=800",
+      "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?q=80&w=800",
+      "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/aroma_valle",
+      "facebook": "https://facebook.com/aroma_valle",
+      "whatsapp": "5214771234567"
+    },
+    "descripcion_corta": "El mejor café de especialidad y postres artesanales de la zona.",
+    "descripcion_larga": "En Café Aroma del Valle, cada taza cuenta una historia. Usamos granos de origen único y técnicas de extracción precisas para ofrecerte una experiencia inolvidable. Acompaña tu bebida con nuestra selección de pasteles y panadería hecha en casa. Perfecto para una tarde tranquila o una reunión de trabajo."
+  },
+  {
+    "id": 2,
+    "nombre": "Barbería El Faro",
+    "categoria": "Servicios",
+    "colonia": "El Faro",
+    "telefono": "4772345678",
+    "imagen_url": "https://images.unsplash.com/photo-1599351522382-01b872194d89?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+      "https://images.unsplash.com/photo-1621605815971-fbc3337e3f29?q=80&w=800",
+      "https://images.unsplash.com/photo-1567894340345-a6162c419b33?q=80&w=800",
+      "https://images.unsplash.com/photo-1622288432454-207238206a45?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/barberia_elfaro",
+      "facebook": "https://facebook.com/barberia_elfaro",
+      "whatsapp": "5214772345678"
+    },
+    "descripcion_corta": "Cortes clásicos y modernos. Estilo y precisión para el hombre de hoy.",
+    "descripcion_larga": "Más que una barbería, somos un club para caballeros. Ofrecemos cortes de cabello, afeitado clásico con navaja, arreglo de barba y tratamientos faciales. Disfruta de un ambiente relajado con buena música y un servicio impecable. Agenda tu cita y vive la experiencia El Faro."
+  },
+  {
+    "id": 3,
+    "nombre": "Tacos 'El Padrino'",
+    "categoria": "Restaurante",
+    "colonia": "El Faro",
+    "telefono": "4773456789",
+    "imagen_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1611250188496-e966043a0629?q=80&w=800",
+        "https://images.unsplash.com/photo-1551610294-11e405a411a2?q=80&w=800",
+        "https://images.unsplash.com/photo-1627907228175-2bf846a303b4?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/tacos_padrino",
+      "facebook": "https://facebook.com/tacos_padrino",
+      "whatsapp": "5214773456789"
+    },
+    "descripcion_corta": "La auténtica tradición del taco. Pastor, suadero, tripa y más.",
+    "descripcion_larga": "Desde 1998 sirviendo los mejores tacos de la ciudad. Nuestra receta de pastor es un secreto familiar. Tortillas hechas a mano, salsas con el picor perfecto y la mejor carne. ¡No te puedes ir sin probar nuestra gringa especial! Abierto hasta tarde."
+  },
+  {
+    "id": 4,
+    "nombre": "FitZone Gym",
+    "categoria": "Salud",
+    "colonia": "Valle Antigua",
+    "telefono": "4774567890",
+    "imagen_url": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1540496905036-5937c10647cc?q=80&w=800",
+        "https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=800",
+        "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/fitzone_gym",
+      "facebook": "https://facebook.com/fitzone_gym",
+      "whatsapp": "5214774567890"
+    },
+    "descripcion_corta": "Tu meta es nuestro objetivo. Equipos de última generación y clases grupales.",
+    "descripcion_larga": "En FitZone Gym encontrarás todo lo que necesitas para transformar tu cuerpo y mente. Contamos con área de pesas, cardio, zona de crossfit y salón de clases grupales (Yoga, Spinning, Zumba). Nuestros entrenadores certificados te ayudarán a crear un plan personalizado."
+  },
+  {
+    "id": 5,
+    "nombre": "La Floresta Pet Shop",
+    "categoria": "Tiendas",
+    "colonia": "Valle Antigua",
+    "telefono": "4775678901",
+    "imagen_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+      "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?q=80&w=800",
+      "https://images.unsplash.com/photo-1598875704152-020a22c0aea2?q=80&w=800",
+      "https://images.unsplash.com/photo-1548681528-6a5c45b66b42?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/lafloresta_pet",
+      "facebook": "https://facebook.com/lafloresta_pet",
+      "whatsapp": "5214775678901"
+    },
+    "descripcion_corta": "Todo para el consentido del hogar. Alimento, accesorios y estética canina.",
+    "descripcion_larga": "Amamos a las mascotas tanto como tú. En La Floresta Pet Shop ofrecemos una amplia variedad de alimentos premium, juguetes, camas, ropa y accesorios. Además, contamos con servicio de estética profesional para que tu perro o gato luzca increíble. ¡Visítanos!"
+  },
+  {
+    "id": 6,
+    "nombre": "Soluciones Web 'El Faro'",
+    "categoria": "Servicios",
+    "colonia": "El Faro",
+    "telefono": "4776789012",
+    "imagen_url": "https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800",
+        "https://images.unsplash.com/photo-1559028006-44a10e11c769?q=80&w=800",
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/soluciones_elfaro",
+      "facebook": "https://facebook.com/soluciones_elfaro",
+      "whatsapp": "5214776789012"
+    },
+    "descripcion_corta": "Diseño y desarrollo de páginas web para PYMES. Impulsa tu negocio.",
+    "descripcion_larga": "En Soluciones Web 'El Faro' creamos sitios web modernos, rápidos y optimizados para móviles que ayudan a nuestros clientes a crecer. Ofrecemos paquetes a la medida, desde landing pages hasta tiendas en línea. Tu éxito digital empieza aquí."
+  },
+  {
+    "id": 7,
+    "nombre": "Pizzería Da Vinci",
+    "categoria": "Restaurante",
+    "colonia": "Valle Antigua",
+    "telefono": "4777890123",
+    "imagen_url": "https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?q=80&w=800",
+        "https://images.unsplash.com/photo-1528137871618-694827004695?q=80&w=800",
+        "https://images.unsplash.com/photo-1564936282621-e8f2fe8a9236?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/pizzeria_davinci",
+      "facebook": "https://facebook.com/pizzeria_davinci",
+      "whatsapp": "5214777890123"
+    },
+    "descripcion_corta": "Auténtica pizza italiana con horno de leña. Ingredientes frescos y locales.",
+    "descripcion_larga": "Viaja a Italia sin salir de la ciudad. En Pizzería Da Vinci, nuestra masa es de fermentación lenta y usamos solo los ingredientes más frescos. Desde la clásica Margarita hasta nuestras creaciones especiales, cada pizza es una obra de arte. Contamos con servicio a domicilio."
+  },
+  {
+    "id": 8,
+    "nombre": "Clínica Dental Sonríe",
+    "categoria": "Salud",
+    "colonia": "El Faro",
+    "telefono": "4778901234",
+    "imagen_url": "https://images.unsplash.com/photo-1629904851969-9c5c4274acaa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1606228963595-c42c67a3a696?q=80&w=800",
+        "https://images.unsplash.com/photo-1579781403337-de6923207145?q=80&w=800",
+        "https://images.unsplash.com/photo-1588776814546-da61931029c7?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/dental_sonrie",
+      "facebook": "https://facebook.com/dental_sonrie",
+      "whatsapp": "5214778901234"
+    },
+    "descripcion_corta": "Cuidamos tu salud bucal con la mejor tecnología y un trato humano.",
+    "descripcion_larga": "Tu sonrisa es nuestra pasión. Ofrecemos servicios de odontología general, ortodoncia, endodoncia, implantes y blanqueamiento dental. Contamos con un equipo de especialistas y tecnología de punta para garantizarte un tratamiento cómodo y efectivo."
+  },
+  {
+    "id": 9,
+    "nombre": "Librería El Saber",
+    "categoria": "Tiendas",
+    "colonia": "El Faro",
+    "telefono": "4779012345",
+    "imagen_url": "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=800",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=800",
+        "https://images.unsplash.com/photo-1524995767962-b1f4b81b3a4e?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/libreria_elsaber",
+      "facebook": "https://facebook.com/libreria_elsaber",
+      "whatsapp": "5214779012345"
+    },
+    "descripcion_corta": "Un universo de historias por descubrir. Novedades, clásicos y más.",
+    "descripcion_larga": "Sumérgete en el placer de la lectura. En Librería El Saber tenemos una cuidada selección de literatura, libros infantiles, ensayos y textos académicos. Organizamos eventos, clubes de lectura y presentaciones con autores. Un espacio para la cultura y el encuentro."
+  },
+  {
+    "id": 10,
+    "nombre": "Yoga Shanti Studio",
+    "categoria": "Salud",
+    "colonia": "Valle Antigua",
+    "telefono": "4770123456",
+    "imagen_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=tinysrgb&w=800&fit=max",
+    "galeria_urls": [
+        "https://images.unsplash.com/photo-1591291621229-2265b4ee3b1b?q=80&w=800",
+        "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800",
+        "https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?q=80&w=800"
+    ],
+    "redes": {
+      "instagram": "https://instagram.com/yoga_shanti",
+      "facebook": "https://facebook.com/yoga_shanti",
+      "whatsapp": "5214770123456"
+    },
+    "descripcion_corta": "Encuentra tu equilibrio y paz interior. Clases para todos los niveles.",
+    "descripcion_larga": "Shanti Studio es un oasis en medio de la ciudad. Ofrecemos clases de Vinyasa, Hatha, Ashtanga y meditación. Nuestros instructores certificados te guiarán en tu práctica, ya seas principiante o avanzado. Únete a nuestra comunidad y conecta con tu ser interior."
+  }
+]
